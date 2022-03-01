@@ -1,11 +1,12 @@
-import React from "react"
-import { Routes } from "react-router-dom"
+import StarBar from "./StarBar/StarBar"
+import OverView from "./OverView/OverView"
 
 function Body () {
     return (
-        <Routes>
-            
-        </Routes>
+        <div>
+            <StarBar />
+            <OverView />
+        </div>
     )
 }
 

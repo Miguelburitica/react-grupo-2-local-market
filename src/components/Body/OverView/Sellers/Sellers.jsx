@@ -1,6 +1,6 @@
 import React from "react"
 
-function SideBar () {
+function Sellers () {
     return (
         <React.Fragment>
             
@@ -8,4 +8,4 @@ function SideBar () {
     )
 }
 
-export default SideBar
+export default Sellers
