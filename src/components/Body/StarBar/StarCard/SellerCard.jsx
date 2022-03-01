@@ -1,10 +1,10 @@
 import React from "react"
 
-function ProductCard ({label, price, market, seller, name}) {
+function SellerCard ({label, price, market, seller, name}) {
     return (
         <div className="starCard">
-            <h4>Tu {label} más exitoso es:</h4>
-            <h5>{name}</h5>
+            <h4>Nuestro vended@r estrella</h4>
+            <h6> &#11088; {name}</h6>
             <p>Precio: {price}</p>
             <p>Vendido en: {market}</p>
             <p>Vendido por: {seller}</p>
@@ -12,4 +12,4 @@ function ProductCard ({label, price, market, seller, name}) {
     )
 }
 
-export default ProductCard
+export default SellerCard

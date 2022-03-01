@@ -1,6 +1,6 @@
 import React from "react"
 
-function Default () {
+function Customers () {
     return (
         <React.Fragment>
             
@@ -8,4 +8,4 @@ function Default () {
     )
 }
 
-export default Default
+export default Customers

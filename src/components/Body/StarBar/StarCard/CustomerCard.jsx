@@ -1,9 +1,9 @@
 import React from "react"
 
-function CategoryCard ({label, price, market, seller, name}) {
+function CustomerCard ({label, price, market, seller, name}) {
     return (
         <div className="starCard">
-            <h4>Nuestra categoria estrella</h4>
+            <h4>Nuestro vended@r estrella</h4>
             <h6> &#11088; {name}</h6>
             <p>Precio: {price}</p>
             <p>Vendido en: {market}</p>
@@ -12,4 +12,4 @@ function CategoryCard ({label, price, market, seller, name}) {
     )
 }
 
-export default CategoryCard
+export default CustomerCard

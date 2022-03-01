@@ -1,3 +1,7 @@
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
 .App {
   display: flex;
   width: 100%;
@@ -6,18 +10,66 @@
 .sideBar {
   display: flex;
   flex-direction: column;
-  width: 15%;
+  width: 18%;
   overflow: hidden;
+  border: 1px solid saddlebrown;
+  padding-bottom: 15px;
+  min-width: 240px;
 }
 
 .sideBar .header {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.header .logo {
+  width: 80%;
+}
+
+.header .siteTitle {
+  margin: 0;
+}
+
+.sideBar .navBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.navBar .option {
+  background-color: aqua;
+  width: 95%;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.body {
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px saddlebrown;
 }
 
 .starBar {
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 95%;
+  padding: 12px 14px;
+  gap: 20px;
+}
+
+.starBar .starCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid saddlebrown;
+  border-radius: 1px 10px 1px 10px;
+  padding: 3px 4px;
+  min-width: 280px;
 }
 
 

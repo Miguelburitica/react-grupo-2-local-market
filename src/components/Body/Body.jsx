@@ -3,7 +3,7 @@ import OverView from "./OverView/OverView"
 
 function Body () {
     return (
-        <div>
+        <div className="body">
             <StarBar />
             <OverView />
         </div>

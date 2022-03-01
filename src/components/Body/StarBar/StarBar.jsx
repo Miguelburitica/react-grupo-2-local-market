@@ -3,6 +3,7 @@ import ProductCard from "./StarCard/ProductCard"
 import MarketCard from "./StarCard/MarketCard"
 import CategoryCard from "./StarCard/CategoryCard"
 import SellerCard from "./StarCard/SellerCard"
+import CustomerCard from "./StarCard/CustomerCard"
 
 function StarBar () {
     const product = {
@@ -20,6 +21,7 @@ function StarBar () {
             <MarketCard name={market.name} deals={market.deals} />
             <CategoryCard />
             <SellerCard />
+            <CustomerCard />
         </div>
     )
 }

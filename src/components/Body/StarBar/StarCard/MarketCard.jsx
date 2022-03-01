@@ -1,10 +1,12 @@
-function ProductCard ({name, deals}) {
+function MarketCard ({name, deals}) {
     return (
         <div className="starCard">
-            <h4>El mercado que nos enorgullese es {name}</h4>
+            <h4>Nuestro mercado estrella</h4>
+            <h6> &#11088; {name}</h6>
+            <p></p>
             <p>Con ventas semanales de {deals}</p>
         </div>
     )
 }
 
-export default ProductCard
+export default MarketCard
