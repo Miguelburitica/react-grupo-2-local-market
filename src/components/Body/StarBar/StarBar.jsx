@@ -17,11 +17,11 @@ function StarBar () {
     }
     return (
         <div className="starBar">
-            <SellerCard />
             <ProductCard name={product.name} price={product.price} market={product.market} />
             <MarketCard name={market.name} deals={market.deals} />
             <CategoryCard />
             <CustomerCard />
+            <SellerCard />
         </div>
     )
 }

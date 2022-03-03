@@ -5,7 +5,7 @@ function OneUser(props) {
     
     return (
         <div className="user">
-            <Link className="info" to={id}>
+            <div className="info" to={id}>
                 <div className="name">
                     Usuario:  {props.user_name}
                 </div>
@@ -16,7 +16,7 @@ function OneUser(props) {
                     E-mail: {props.email}
                 </div>
                     
-            </Link>
+            </div>
         </div>
     )
 }

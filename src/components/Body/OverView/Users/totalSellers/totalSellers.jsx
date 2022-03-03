@@ -24,14 +24,10 @@ function TotalSellers() {
 
     return (
         <div>
-            <div className='card'>
-                <div className='titulos'>
-                    <h3>
-                        Vendedores
-                    </h3>
-                    <h4> {total.count} </h4>
-                </div>
-            </div>
+         <h3>
+            Vendedores
+            </h3>
+            <h4> {total.count} </h4>
         </div>
     )
 }

@@ -41,10 +41,12 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .navBar .option {
-  background-color: aqua;
+  background-color: #96D7A5;
   width: 95%;
   text-align: center;
   padding: 4px 0;
+  box-shadow: inset 0 0 0 3px rgba(35, 33, 45, 0.3), 0 0 0 3px rgba(185, 185, 185, 0.3);
+  border-radius: 10px 10px 10px 10px;
 }
 
 .body {
@@ -90,21 +92,27 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-evenly;
   width: 95%;
+ 
 }
 .main-api .card .transparent-box{
   width: 100%;
   margin: 30px;
   background-color: #ffffff;
-  border: 1px solid #754847;
   opacity: 0.8;
+  border-radius: 1px 10px 1px 10px;
+  justify-content:center;
+  box-shadow: inset 0 0 0 3px rgba(35, 33, 45, 0.3), 0 0 0 3px rgba(185, 185, 185, 0.3);
 }
+
+.main-api .card .transparent-box h3,h4{
+  text-align: center;
+}
+
 
 .main-api .list{
   display: flex;
   justify-content: space-evenly;
   width: 95%;
-  background-color: rgba(255, 209, 100, 0.2);
-  box-shadow: inset 0 0 0 3px rgba(35, 33, 45, 0.3), 0 0 0 3px rgba(185, 185, 185, 0.3);
 }
 
 .main-api .list .items{
@@ -113,13 +121,24 @@ p, h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   width: 30%;
   margin: 7px;
-  background-color:#ffffff;
   padding: 5px 15px;
   justify-content: center;
-  box-shadow: inset 0 0 0 2px rgba(35, 33, 45, 0.3), 0 0 0 3px rgba(185, 185, 185, 0.3);
 }
 .items .user{
   display: flex;
+  align-items: flex-start;
   justify-content: space-evenly;
-  width: 90%;
+  width: 100%;
+ 
 }
+
+.items .user .info{
+  width: 100%;
+  margin: 5px;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid #754847;
+  border-radius: 1px 10px 1px 10px;
+  opacity: 0.8;
+}
+
