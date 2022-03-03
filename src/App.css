@@ -72,4 +72,54 @@ p, h1, h2, h3, h4, h5, h6 {
   min-width: 280px;
 }
 
+/* users */
+.main-api{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(255, 209, 100, 0.2);
+  box-shadow: inset 0 0 0 3px rgba(35, 33, 45, 0.3), 0 0 0 3px rgba(185, 185, 185, 0.3);
+}
 
+
+.main-api .card{
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+}
+.main-api .card .transparent-box{
+  width: 100%;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid #754847;
+  opacity: 0.8;
+}
+
+.main-api .list{
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+  background-color: rgba(255, 209, 100, 0.2);
+  box-shadow: inset 0 0 0 3px rgba(35, 33, 45, 0.3), 0 0 0 3px rgba(185, 185, 185, 0.3);
+}
+
+.main-api .list .items{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  margin: 7px;
+  background-color:#ffffff;
+  padding: 5px 15px;
+  justify-content: center;
+  box-shadow: inset 0 0 0 2px rgba(35, 33, 45, 0.3), 0 0 0 3px rgba(185, 185, 185, 0.3);
+}
+.items .user{
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}

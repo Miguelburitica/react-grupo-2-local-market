@@ -6,20 +6,16 @@ function OneUser(props) {
     return (
         <div className="user">
             <Link className="info" to={id}>
-                <div>
-                    <h3 className="name">
-                        {props.user_name}
-                    </h3>
-                    <h3 className="name">
-                        {props.names}
-                    </h3>
-                    <h3 className="name">
-                        {props.surname}
-                    </h3>
-                    <h3 className="name">
-                        {props.email}
-                    </h3>
+                <div className="name">
+                    Usuario:  {props.user_name}
                 </div>
+                <div className="name">
+                    Nombres:{props.names} {props.surname} 
+                </div>
+                <div className="name">
+                    E-mail: {props.email}
+                </div>
+                    
             </Link>
         </div>
     )

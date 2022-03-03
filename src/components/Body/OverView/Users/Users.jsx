@@ -9,19 +9,19 @@ function Users(){
     return(
         <div className="main-api">
             <div className ="card">
-                <TotalUsers/>
-                <TotalSellers/>
-                <TotalCustomers/>
+                <div className='transparent-box'><TotalUsers/></div>
+                <div className='transparent-box'><TotalSellers/></div>
+                <div className='transparent-box'><TotalCustomers/></div>  
             </div>
             <div className="list">
                 <div className="items">
-                    < AllUser/>
+                 < AllUser/>
                 </div>
                 <div className="items">
                     < AllSellers/>
                 </div>
                 <div className="items">
-               < AllCustomers/>
+                    < AllCustomers/>
                </div>
             </div>
         </div>

@@ -29,7 +29,7 @@ function AllCustomer() {
     return (
         <div>
           {allUser.map(function(user,index){ 
-        return <OneUser key={index} names={user.names} surname={user.surname}/>} 
+        return <OneUser key={index} names={user.names} surname={user.surname} email={user.email} user_name={user.user_name}/>} 
         )}
         </div>
     )
