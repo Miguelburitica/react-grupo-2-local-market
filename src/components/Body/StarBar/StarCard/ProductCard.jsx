@@ -11,7 +11,7 @@ function ProductCard ({product}) {
             <h6> &#11088; {product.nombre}</h6>
             <p>Con un precio de $<b>{product.precioPorKilo}</b></p>
             <p>Vendido en el mercado <b>{market}</b></p>
-            <p>Vendido por el Sr(a) <b>{seller}</b></p>
+            <p>Traido por el negocio <b>{seller}</b></p>
         </Link>
     )
 }
