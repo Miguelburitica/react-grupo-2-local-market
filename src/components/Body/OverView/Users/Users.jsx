@@ -4,6 +4,7 @@ import TotalCustomers from './totalCustomers/totalCustomers'
 import AllUser from './allUser/allUser'
 import AllSellers from './allSellers/allSellers'
 import AllCustomers from './allCustomers/allCustomers'
+// import LastUser from './lastUser/lastUser'
 
 function Users(){
     return(
@@ -12,6 +13,7 @@ function Users(){
                 <div className='transparent-box'><TotalUsers/></div>
                 <div className='transparent-box'><TotalSellers/></div>
                 <div className='transparent-box'><TotalCustomers/></div>  
+                {/* <div className='transparent-box'><LastUser/></div>  */}
             </div>
             <div className="list">
                 <div className="items">
