@@ -113,6 +113,7 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-evenly;
   width: 95%;
+  padding: 10px;
 }
 
 .main-api .list .items{
@@ -129,6 +130,7 @@ p, h1, h2, h3, h4, h5, h6 {
   align-items: flex-start;
   justify-content: space-evenly;
   width: 100%;
+  padding: 5px;
  
 }
 
@@ -138,7 +140,8 @@ p, h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   background-color: #ffffff;
   border: 1px solid #754847;
-  border-radius: 1px 10px 1px 10px;
+  border-radius: 5px 5px 5px 5px;
   opacity: 0.8;
+  padding: 5px;
 }
 
