@@ -1,14 +1,18 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
-function ProductCard ({price, market, seller, name}) {
+function ProductCard ({product}) {
+    console.log({vendedor: product.vendedor});
+    const market = product.mercado !== undefined ? product.mercado.nombre : ''
+    const seller = product.vendedor !== undefined ? product.vendedor.nombreDeUsuario : ''
     return (
-        <div className="starCard">
-            <h4>Nuestro producto estrella</h4>
-            <h6> &#11088; {name}</h6>
-            <p>Con un precio de {price}</p>
-            <p>Vendido en el mercado {market}</p>
-            <p>Vendido por el Sr(a) {seller}</p>
-        </div>
+        <Link to={`/products/${product.identificador}`} className="starCard">
+            <h4>Último producto creado</h4>
+            <h6> &#11088; {product.nombre}</h6>
+            <p>Con un precio de $<b>{product.precioPorKilo}</b></p>
+            <p>Vendido en el mercado <b>{market}</b></p>
+            <p>Vendido por el Sr(a) <b>{seller}</b></p>
+        </Link>
     )
 }
 

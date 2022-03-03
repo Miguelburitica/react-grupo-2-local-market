@@ -7,10 +7,10 @@ function SideBar () {
         <div className="sideBar">
             <Header />
             <nav className="navBar">
-                <Link to="product" className="option" >Productos</Link>
-                <Link to="market" className="option" >Mercados</Link>
-                <Link to="category" className="option" >Categorias</Link>
-                <Link to="seller" className="option" >Vendedores</Link>
+                <Link to="products" className="option" >Productos</Link>
+                <Link to="markets" className="option" >Mercados</Link>
+                <Link to="categories" className="option" >Categorias</Link>
+                <Link to="users" className="option" >Usuarios</Link>
             </nav>
         </div>
     )

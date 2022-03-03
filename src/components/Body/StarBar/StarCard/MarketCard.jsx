@@ -1,11 +1,16 @@
-function MarketCard ({name, deals}) {
+import { Link } from "react-router-dom"
+
+function MarketCard ({market}) {
+
+    let products = market.products !== undefined ? market.products.length : ''
+    
     return (
-        <div className="starCard">
+        <Link to={`/markets/${market.id}`} className="starCard">
             <h4>Nuestro mercado estrella</h4>
-            <h6> &#11088; {name}</h6>
+            <h6> &#11088; {market.name}</h6>
             <p></p>
-            <p>Con ventas semanales de {deals}</p>
-        </div>
+            <p>Con {products} productos asociados</p>
+        </Link>
     )
 }
 
